@@ -1,0 +1,24 @@
+/* Reset Básico */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+  font-family: sans-serif;
+}
+.container {
+  background-color: red;
+  display: flex;
+}
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 32px;
+  border: 3px;
+}
